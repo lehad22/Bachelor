@@ -1,0 +1,58 @@
+/* Стили заголовка */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Стили для компонента загрузки */
+.upload-data {
+    width: 50%;
+    height: 60px;
+    line-height: 60px;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+/* Стили для блока с выбором переменной и кнопкой обновления */
+.variable-selector {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.variable-selector label {
+    margin-top: 20px;
+}
+
+.update-button {
+    margin: 10px;
+        background-color: #008CBA;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 4px
+}
+
+/* Стили для вывода графика */
+.output-graph {
+    margin-top: 20px;
+}
+
+/* Стили для кнопки очистки графика */
+.clear-button {
+    margin-top: 20px;
+}
+
+/* Стили для вывода результата очистки */
+.output-clear {
+    margin-top: 20px;
+}

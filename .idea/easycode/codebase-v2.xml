@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/main.py" />
+    <option name="forceFullIndex" value="false" />
+    <option name="fileSummaryMaps" value="{&quot;C:/Users/lehad/PycharmProjects/diplom&quot;:&quot;{\&quot;/main.py\&quot;:\&quot;This Python script reads in and visualizes data from a NetCDF file.\\n\\nKey functions:\\n\\n- xr.open_dataset() - Opens the NetCDF file and loads it into an xarray Dataset\\n- ds[\\u0027t2m\\u0027] - Selects the \\u0027t2m\\u0027 (2m temperature) variable from the Dataset \\n- plt.imshow() - Plots the 2m temperature data as an image\\n- plt.title(), plt.xlabel(), plt.ylabel() - Adds labels and titles to the plot\\n- plt.show() - Displays the matplotlib figure\\n\\nSo in summary:\\n\\n- It loads NetCDF data into xarray \\n- Selects the temperature variable\\n- Plots the temperature data as an image\\n- Labels the plot\\n- Displays the figure\\n\\nThe main purpose is to read climate/weather data from a NetCDF file and visualize one of the variables (temperature) spatially using matplotlib.\&quot;}&quot;}" />
+  </component>
+</project>
